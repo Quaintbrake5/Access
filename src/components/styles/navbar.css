@@ -61,7 +61,7 @@ ul.flex-left{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 12px;
 }
 
 li {
@@ -79,5 +79,6 @@ li {
 }
 
 .location{
-    
+    float: right;
+    margin-left: 520px;
 }
