@@ -12,7 +12,7 @@ import '../image/Private-Bank-Banner3-1-(1).png'
 import '../image/stop-fraud-slider.jpg'
 
 
-export const Header = () => {
+export const Header = (props) => {
   return (
     <>
         {/* Banners begin */}
@@ -21,11 +21,12 @@ export const Header = () => {
                 <div className='inner-slideshow'>
                 <div className="slider-container">
                     <div className="slider">
-                        <img src="../image/amex-banner.jpg" alt="Image 1"></img>
+                        <img src= {props.image}></img>
+                        {/* <img src="../image/amex-banner.jpg" alt="Image 1"></img>
                         <img src="../image/Private-Bank-Banner3-1-(1).png" alt="Image 2"></img>
                         <img src="../image/corporatebanking.png" alt="Image 3"></img>
                         <img src="../image/access-business-3_1.png" alt="Image 4"></img>
-                        <img src="../image/stop-fraud-slider.jpg" alt="Image 5"></img>
+                        <img src="../image/stop-fraud-slider.jpg" alt="Image 5"></img> */}
                     </div>
                 </div>
 
