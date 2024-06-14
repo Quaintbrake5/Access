@@ -33,7 +33,8 @@ export const Header = (props) => {
                     {/* <button className="prev" onClick="prevSlide()">&#10094;</button>
                     <button className="next" onClick="nextSlide()">&#10095;</button> */}
                 </div>
-            </div>  
+            </div>
+            <script src='../components/scripts/slider.js'></script>
         </section>
 
         <br/>
@@ -84,7 +85,6 @@ export const Header = (props) => {
                                     </h4>
                                     <p className='featured-text'>
                                         Need quick cash for Quick fixes?
-                                        <br/>
                                         See how we can help 
                                     </p>
                                 </div>
@@ -100,9 +100,7 @@ export const Header = (props) => {
                                         Money Transfer
                                     </h4>
                                     <p className='featured-text'>
-                                        Reliable, safe and secure ways to
-                                        <br/>
-                                        send and receive money
+                                        Reliable, safe and secure ways to send and receive money
                                     </p>
                                 </div>
                             </a>    
@@ -118,5 +116,4 @@ export const Header = (props) => {
     </>
   )
 }
-<script src='../components/scripts/slider.js'></script>
 export default Header
