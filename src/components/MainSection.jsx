@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import '../assets/pin.svg'
 
 export const MainSection = () => {
   return (
@@ -17,6 +18,18 @@ export const MainSection = () => {
                 The less time you spend in a bank, the more time you have for yourself. Choose from a variety of easy and secure ways to manage your money on-the-go.
             </p>
         </div>
+
+         <div className='access-more'>
+            <div className='swiper-wrapper'>
+              <div className='swiper-slide'>
+                <a href='https://www.accessbankplc.com/ways-to-bank/mobile-banking'>
+
+                </a>
+              </div>
+            </div>
+         </div>
+
+
       </div>
     </>
   )
