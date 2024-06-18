@@ -14,3 +14,13 @@
 .mainDiv p{
     font-size: x-large;
 }
+
+.access-more{
+    margin-top: 40px;
+}
+
+.access-more .swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+}
