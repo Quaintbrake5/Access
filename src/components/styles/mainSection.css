@@ -23,4 +23,16 @@
     display: flex;
     flex-direction: row;
     padding-left: 70px;
+    gap: 10px;
 }
+
+.access-more .swiper-slide button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.access-more .swiper-slide  strong{
+    font-size: xx-large;
+}
+

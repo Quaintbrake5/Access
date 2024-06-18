@@ -5,6 +5,7 @@ import TopNavbar from './components/TopNavbar'
 import Header from './components/Header'
 import NewsStrip from './components/NewsStrip'
 import MainSection from './components/MainSection'
+import Payday from './components/Payday'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <NewsStrip/>
       <MainSection/>
+      <Payday/>
     </>
   )
 }

@@ -24,7 +24,9 @@ export const MainSection = () => {
         <div className='access-more'>
           <div className='swiper-wrapper'>
             <div className='swiper-slide'>
-              <button className="prev" onClick="prevSlide()">&#10094;</button>
+              <button className="prev" onClick="prevSlide()">
+                <strong>&#10094;</strong>
+              </button>
               {/* <button className="next" onClick="nextSlide()">&#10095;</button> */}
             </div>
 
@@ -85,7 +87,9 @@ export const MainSection = () => {
 
             <div className='swiper-slide'>
               {/* <button className="prev" onClick="prevSlide()">&#10094;</button> */}
-              <button className="next" onClick="nextSlide()">&#10095;</button>
+              <button className="next" onClick="nextSlide()">
+                <strong>&#10095;</strong>
+              </button>
             </div>
             
           </div>
