@@ -81,3 +81,21 @@
     align-items: flex-start;
     max-width: 411px;
 }
+
+.banner-section{
+    display: block;
+    color: #ffffff;
+}
+
+.slideshow{
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
+    position: relative;
+}
+
+.slider{
+    background-color: #a4c519;
+    background-image:  url(/src/image/amex-banner.jpg);
+    height: 80vh;
+}
