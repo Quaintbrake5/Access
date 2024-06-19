@@ -1,0 +1,146 @@
+.service-section .main-Div{
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 70px;
+}
+
+.main-Div span{
+    border-left: 100px;
+    text-align: center;
+    font-size: xx-large;
+    color: #007168;
+}
+
+.main-Div p{
+    font-size: x-large;
+}
+
+.service-container .service-swiper-slide button{
+    background-color: transparent;
+    border: none;
+}
+
+.service-container .service-swiper-slide  strong{
+    font-size: xx-large;
+}
+
+.service-container .service-swiper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    gap: 10px;
+}
+
+.service-swiper-slide-0{
+    background-image: url(/src/image/bills.png);
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.service-swiper-slide-0 .inner-slide{
+    background: radial-gradient(97.57% 210.75% at .9% 2.98%, #fff, #fff9);
+    width: 100%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+    height: 132px;
+    transition: .4s cubic-bezier(.25,1,.3,1);
+    will-change: contents;
+    overflow: hidden;
+    transition: width .3s ease, height .3s ease;
+    width: 300px;
+}
+
+.inner-slide svg{
+    font-size: 50px;
+    fill: #a4c519;
+}
+
+.service-swiper-slide-1{
+    background-image: url(/src/image/manbank.png);
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.service-swiper-slide-1 .inner-slide{
+    background: radial-gradient(97.57% 210.75% at .9% 2.98%, #fff, #fff9);
+    width: 100%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+    height: 132px;
+    transition: .4s cubic-bezier(.25,1,.3,1);
+    will-change: contents;
+    overflow: hidden;
+    transition: width .3s ease, height .3s ease;
+    width: 300px;
+}
+
+.service-swiper-slide-2{
+    background-image: url(/src/image/phones.png);
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.service-swiper-slide-2 .inner-slide{
+    background: radial-gradient(97.57% 210.75% at .9% 2.98%, #fff, #fff9);
+    width: 100%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+    height: 132px;
+    transition: .4s cubic-bezier(.25,1,.3,1);
+    will-change: contents;
+    overflow: hidden;
+    transition: width .3s ease, height .3s ease;
+    width: 300px;
+}

@@ -44,7 +44,7 @@ const Payday = () => {
                         <div className='float-top'>Eligible Loan Amount</div>
                         <div className='main-text'>NO</div>
                         <div className='light-text'>
-                            <div className='medium'>Tenor:</div>
+                            <span className='medium'>Tenor: </span>
                             Your next pay day or 30 days, whichever comes first
                         </div>
 

@@ -162,3 +162,32 @@ div.loan-drag-dot>::before{
     width: 100%;
     margin-right: 0;
 }
+
+.calc-float .float-top{
+    color: #434343;
+}
+
+.calc-float .main-text{
+    font-size: 45px;
+    color: #ee7e01;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.calc-float .light-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.calc-float .medium{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.calc-float .float-button{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    transition: .4s;
+}

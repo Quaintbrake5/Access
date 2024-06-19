@@ -9,7 +9,7 @@ export const MainSection = () => {
     <>
       <section className='main-section'>
         <div className="mainDiv">
-            <span className="lightershi"> 
+            <span> 
               <strong>access more </strong>
               ways to bank
             </span>
