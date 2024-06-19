@@ -7,6 +7,7 @@ import NewsStrip from './components/NewsStrip'
 import MainSection from './components/MainSection'
 import Payday from './components/Payday'
 import Service from './components/Service'
+import Promotion from './components/Promotion'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <MainSection/>
       <Payday/>
       <Service/>
+      <Promotion/>
     </>
   )
 }

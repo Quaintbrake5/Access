@@ -1,0 +1,67 @@
+.access-promotion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    position: relative;
+    max-width: 1440px;
+    margin: 70px auto 0;
+    overflow: hidden;
+}
+
+.promotion-left{
+    height: 100%;
+    width: 45%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    background-color: #ee7e01;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.promotion-left .left{
+    width: 98%;
+    height: 100%;
+    background-color: #a4c519;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    padding: 2rem 2rem 2rem 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left p.yourbank{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700
+}
+
+.left p.think{
+    font-size: 25px;
+}
+
+.left h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.left p.onestop{
+    line-height: 1.5;
+    color: #fff;
+}
+
+.left a{
+    color: #000;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    transition: .4s;
+    width: 118px;
+}
+
+.promotion-right div{
+    background-image: url(/src/image/closaadv.jpeg);
+}
