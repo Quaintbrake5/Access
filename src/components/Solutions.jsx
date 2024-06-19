@@ -18,6 +18,12 @@ const Solutions = () => {
             </div>
             
             </div>
+
+            <div className='solution-banking'>
+                <div className='solution-card'>
+                    <img src='../image/handshake.png'></img>
+                </div>
+            </div>
         </div>
       </section>
     </>
