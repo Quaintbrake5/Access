@@ -23,7 +23,7 @@ const Payday = () => {
                             <line x1="12" y1="8" x2="12" y2="12"></line>
                             <line x1="12" y1="16" x2="12.01" y2="16"></line>
                         </svg>
-                        <p>* Terms and Conditions Apply</p>
+                        * Terms and Conditions Apply
                     </div>
 
 
