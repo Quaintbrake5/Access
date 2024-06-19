@@ -1,0 +1,8 @@
+.service-multi-colored-line{
+    width: 100%;
+    height: 6px;
+    margin-top: -5px;
+    width: 100vw;
+    z-index: 3;
+    background: linear-gradient(to right, #114c8d 40%, #9bc002 40%, #9bc002 65%, #eb7824 65%, #eb7824 85%, #057a82 85%, #057a82 100%);
+}   

@@ -9,6 +9,7 @@ import Payday from './components/Payday'
 import Service from './components/Service'
 import Promotion from './components/Promotion'
 import Solutions from './components/Solutions'
+import ColorLine from './components/ColorLine'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Service/>
       <Promotion/>
       <Solutions/>
+      <ColorLine/>
     </>
   )
 }
