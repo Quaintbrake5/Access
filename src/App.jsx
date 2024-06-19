@@ -8,6 +8,7 @@ import MainSection from './components/MainSection'
 import Payday from './components/Payday'
 import Service from './components/Service'
 import Promotion from './components/Promotion'
+import Solutions from './components/Solutions'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Payday/>
       <Service/>
       <Promotion/>
+      <Solutions/>
     </>
   )
 }
