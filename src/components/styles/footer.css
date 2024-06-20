@@ -47,13 +47,13 @@
 .social-links{
     clip-path: polygon(0 0, 100% 0%, 98.2% 100%, 0% 100%);
     width: 100%;
-    padding: 1.2rem;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, .5);
     position: relative;
     margin-top: 1rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 .social-links::before{
@@ -74,6 +74,64 @@
     display: flex;
 }
 
+.social-links .phones svg{
+    font-size: 30px;
+    margin-right: 4px;
+}
+
 .social-links .phones a{
     font-weight: 500;
+    margin-right: .25rem;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.social-links .phones span{
+    margin-right: 5px;
+}
+
+.social-links .middle-text{
+    color: #cccccc;
+    margin-left: 100px;
+}
+
+.middle-text .app-store{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+.app-store .app-store-icons a img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+}
+
+
+.right-text .social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 150px;
+}
+
+.social-icons span{
+    color: #cccccc;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5px; 
+}
+
+.icons svg{
+    width: 24px;
+    height: 24px;
 }

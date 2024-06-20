@@ -144,7 +144,7 @@ const Footer = () => {
                         </svg>
 
                         <a href="tel:0201 280 2500"><span>0201 280 2500,</span></a>
-                        <a href="tel:07003000000" ><span> 07003000000</span></a>
+                        <a href="tel:07003000000" ><span>  07003000000</span></a>
                     </div>
                 </div>
 
@@ -155,7 +155,9 @@ const Footer = () => {
                             <a href="https://apps.apple.com/ng/app/access-more/id1501024389" target="_blank">
                                 <img src="https://e-cdns-assets.dzcdn.net/common/images/apple-store-badge/en.svg" alt="Get App on App Store"></img>
                             </a>
+                        </div>
 
+                        <div className='app-store-icons'>
                             <a href="https://play.google.com/store/apps/details?id=com.accessbank.nextgen&amp;hl=en" target="_blank">
                                 <img src="https://e-cdns-assets.dzcdn.net/common/images/play-store-badge/en.svg" alt="Get App on Play store"></img>
                             </a>
