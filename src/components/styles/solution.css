@@ -60,6 +60,18 @@
     filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, .1));
 }
 
+.solution-banking .blue::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 100%;
+    transform: rotate(2.5deg);
+    background: #ee701e;
+    bottom: 0%;
+    right: 0;
+    z-index: 1;
+}
+
 .solution-banking .solution-card-1{
     background-image: url(/src/image/equipping-growing-businesses.png);
     width: 100%;
