@@ -24,7 +24,9 @@ function App() {
       <Service/>
       <Promotion/>
       <Solutions/>
+      <br/>
       <ColorLine/>
+      <br/>
     </>
   )
 }
