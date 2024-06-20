@@ -153,11 +153,11 @@ const Footer = () => {
                         <div className='store'>Access Mobile Apps</div>
                         <div className='app-store-icons'>
                             <a href="https://apps.apple.com/ng/app/access-more/id1501024389" target="_blank">
-                                <img src="../image/Appstore.png" alt="Get App on App Store"></img>
+                                <img src="https://e-cdns-assets.dzcdn.net/common/images/apple-store-badge/en.svg" alt="Get App on App Store"></img>
                             </a>
 
                             <a href="https://play.google.com/store/apps/details?id=com.accessbank.nextgen&amp;hl=en" target="_blank">
-                                <img src="../image/PlayStore.png" alt="Get App on Play store"></img>
+                                <img src="https://e-cdns-assets.dzcdn.net/common/images/play-store-badge/en.svg" alt="Get App on Play store"></img>
                             </a>
                         </div>
                     </div>
