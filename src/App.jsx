@@ -10,6 +10,7 @@ import Service from './components/Service'
 import Promotion from './components/Promotion'
 import Solutions from './components/Solutions'
 import ColorLine from './components/ColorLine'
+import Helpful from './components/Helpful'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <Solutions/>
       <br/>
       <ColorLine/>
-      <br/>
+      <Helpful/>
     </>
   )
 }

@@ -6,7 +6,7 @@ const Helpful = () => {
     <>
       <section className='helpful-section'>
         <h4 className='tools'>Access more helpful tools</h4>
-        <div
+        <div className='card-links'></div>
       </section>
     </>
   )
