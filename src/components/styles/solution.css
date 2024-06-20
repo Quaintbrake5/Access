@@ -19,6 +19,7 @@
 .solution-banking{
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .solution-banking .solution-card-0{
@@ -93,4 +94,11 @@
     display: flex;
 }
 
-
+.blue a{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    transition: .4s;
+    width: 118px;
+}

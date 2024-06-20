@@ -1,0 +1,59 @@
+.footer{
+    background-color: #014086;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 80px;
+    overflow: hidden;
+    margin-top: 100px;
+    color: #ffffff;
+    /* background: url(../images/access-logo-bg.svg) no-repeat right bottom; */
+    padding: 5rem 0 3rem;
+    overflow: hidden;
+    background-size: contain;
+    
+}
+
+.footer-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.footer-links-table{
+    display: flex;
+    gap: 80px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.social-links{
+    clip-path: polygon(0 0, 100% 0%, 98.2% 100%, 0% 100%);
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-links 

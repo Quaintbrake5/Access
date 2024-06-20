@@ -1,0 +1,44 @@
+.helpful-section{
+    background-color: white;
+    color: #555555;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-left: 40px;
+}
+
+.helpful-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.helpful-tools-heading {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.helpful-tools{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    scrollbar-width: thin;
+}
+
+.helpful-tools a{
+    width: 176px;
+    height: 151px;
+    border: 4px solid hsla(212, 99%, 26%, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    transition: all .2s;
+    margin: auto;
+    margin-right: 1rem;
+    transition: .5s;
+}

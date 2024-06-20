@@ -64,9 +64,10 @@ span.bend-line{
 }
 
 .strip-wrap a{
-    line-break: normal;
     color: black;
     line-break: normal;
+    gap: 10px;
+    display: inline-flex;
     /* background-color: transparent; */
 
 }
